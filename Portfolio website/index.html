@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <script src="https://kit.fontawesome.com/17746c2e81.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/20c5629a29.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id='header'>
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+                <div class="container">
+                    <p class="paraname"><span class="topLogoname_sapn">R</span>ubesh</p>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav ml-auto">
+                            <a class="nav-link" id="navItem1" href="#Home">Home</a>
+                            <a class="nav-link" href="#about" id="navItem3">About</a>
+                            <a class="nav-link" href="#portfolio" id="navItem4">Portfolio</a>
+                            <a class="nav-link" href="#contact" id="navItem4">Contact</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+           </div>
+         <div id="Home" class="namefiled_container">
+            <img src="https://ik.imagekit.io/nxzvg36yf/1683383463237.jpg?updatedAt=1683384044398" class="profileimg" />
+            <div class="detail_about">
+                <p> WEB Developer</p>
+                <h1>Hi, I'm <span class="saobvab">Rubesh R</span><br>From Periyappalayam</h1>
+            </div> 
+        </div>
+    </div> 
+   
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-2">
+                    <h1>About me</h1>
+                    <p>At NxtWave’s CCBP 4.0 Intensive, I’m currently learning fullstack development with a specialization in 4.0 technologies. In love with the coding challenges and hands-on projects. With Industry’s first ever IRC 4.0, getting ready to take on new challenges in the tech world.</p>
+                    <div class="about_nav_container">
+                        <p  class="tab_links activelink" onclick="opentab('education')">Education</p>
+                        <p  class="tab_links" onclick="opentab('skills')">Skils</p>
+                    </div>
+                    <div class="educaiton_container" id='skills'>
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>Web Development</span><br>Web App development</li>
+                        </ul>
+                    </div>
+                
+                    <div class="educaiton_container activetab" id='education'>
+                        <ul> 
+                            <li><span>2022</span><br>Bsc computer science<br>Madras University</li>
+                            <li><span>2019</span><br>HSC<br>Govt Higher Secondary School Kavaraipettai</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="about-col-1">
+                    <img src="https://ik.imagekit.io/nxzvg36yf/1683382913575.jpg?updatedAt=1683392622638" alt="img">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id='portfolio'> 
+        <div class="container">
+            <h1 class="sub_title">Sample Web Applications</h1>
+            <div class="worklist">
+                <div class="work"> 
+                    <img src="https://cdn.dribbble.com/userupload/2712491/file/original-60e670c5d8583ce25f65e90c4dccba2c.png?compress=1&resize=752x" />
+                    <div class="layer">
+                        <h1>Food Munch Application</h1>
+                        <p>Developed a responsive website for Food Store.
+                        </p>
+                        <p><span>Technologies used: </span>HTM,CSS,Bootstrap</p>
+                        <a href="https://rubeshfoodapp.ccbp.tech/"><i class="fa-solid fa-square-arrow-up-right fa-beat fa-lg"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="https://blog.zoho.com/sites/zblogs/images/analytics/imresizer-1682501526612.jpg" />
+                    <div class="layer">
+                        <h1>IPL Dshboard</h1>
+                        <p>Implemented IPL Dashboard app where users can list of ipl team.
+                        </p>
+                        <p><span>Technologies used: </span>React JS, Routing</p>
+                        <a href="https://rubeshripl.ccbp.tech/"><i class="fa-solid fa-square-arrow-up-right fa-beat fa-lg"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="https://clickup.com/blog/wp-content/uploads/2019/01/to-do-list-apps.png" />
+                    <div class="layer">
+                        <h1>Todo Application</h1>
+                        <p>Developed persistent todo application with CRUD operations to track list of tasks</p>
+                        <p><span>Technologies used: </span>HTML,CSS,Bootstrap,JS</p>
+                        <a href="http://rubeshtodoapp.ccbp.tech/"><i class="fa-solid fa-square-arrow-up-right fa-beat fa-lg"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="https://dashtechinc.com/wp-content/uploads/2020/02/E-Commerce-in-our-daily-life.jpg" />
+                    <div class="layer">
+                        <h1>E-Commerce Web Application</h1>
+                        <p>Developed a responsive website for E-shpoping.</p>
+                        <p><span>Technologies used: </span>React JS, Routing, REST API cals,CSS</p>
+                        <a href="https://se0781.ccbp.tech/login/"><i class="fa-solid fa-square-arrow-up-right fa-beat fa-lg"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="https://static.toiimg.com/imagenext/medley-topic/thumb/topics/image/show/83/wikipedia?imgsize=18046&width=168&resizemode=4" />
+                    <div class="layer">
+                        <h1>Wikki-pedia search Application</h1>
+                        <p> User can search anything in serch bar.</p>
+                        <p><span>Technologies used: </span>HTML,CSS,JS,API Call</p>
+                        <a href="https://wikirubi.ccbp.tech/"><i class="fa-solid fa-square-arrow-up-right fa-beat fa-lg"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+ <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> rubeshr81@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> 9363633449</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/rubesh.roylrubesh?mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.linkedin.com/in/rubesh-r-074b67244"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://instagram.com/rubi_rubesh_1436?igshid=ZGUzMzM3NWJiOQ=="><i class="fa-brands fa-square-instagram"></i></a>
+                </div>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message"  placeholder="Your Message" rows="6"></textarea>
+                    <button  type="submit">Submit</button>
+                </form>
+                <span id="msg">  </span>
+            </div>
+        </div> 
+    </div>
+ </div>
+    <script>
+        var tablinks=document.getElementsByClassName("tab_links")
+        var tabcontents=document.getElementsByClassName("educaiton_container")
+        
+        function opentab(tabname){
+            for (tablink of tablinks){
+                tablink.classList.remove('activelink')
+            }
+            for (tabcontent of tabcontents){
+                tabcontent.classList.remove('activetab')
+            }
+            event.currentTarget.classList.add("activelink")
+            document.getElementById(tabname).classList.add('activetab');
+        }
+
+    </script>
+    <script> 
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzKl4mwRtY74iYLs_z8r4AHt3O6Kbg0NlfnOlbv94wv324QkFtD9leUQ2av-epKYR5D/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg=document.getElementById('msg')
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {msg.innerHTML="Message sent successfully"
+        setTimeout(function(){
+            msg.innerHTML=""
+        },3000)
+        form.reset()  
+        })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+    
+</body>
+</html>
